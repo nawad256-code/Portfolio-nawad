@@ -156,3 +156,21 @@ a { color: var(--color-accent); text-decoration: none; }
   .site-header { flex-direction: column; gap: 0.75rem; border-radius: var(--radius-sm); padding: 1rem; }
   .site-header__nav { justify-content: center; }
 }
+.source-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.source-list li {
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.source-list__meta {
+  display: block;
+  color: var(--color-muted);
+  font-size: 0.78rem;
+}
