@@ -5,12 +5,12 @@ function getDocuments(): array
         [
             'title'       => 'CV',
             'description' => 'Mon curriculum vitae à jour.',
-            'file'        => 'documents/cv.pdf',
+            'file'        => 'documents/cv-public.pdf',
         ],
         [
             'title'       => 'Rapport de stage',
             'description' => 'Rapport complet du stage effectué à la Banque Centrale des Comores.',
-            'file'        => 'documents/rapport-stage.pdf',
+            'file'        => 'documents/rapport-stage.pdf.pdf',
         ],
         [
             'title'       => 'Tableau de synthèse',
